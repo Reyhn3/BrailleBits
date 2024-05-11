@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>BrailleBits</PackageId>
+    <AssemblyName>BrailleBits</AssemblyName>
+    <Product>BrailleBits</Product>
+    <Description>Translates a binary number into a visual representation using 8-dot braille unicode characters</Description>
+  </PropertyGroup>
+
+</Project>
