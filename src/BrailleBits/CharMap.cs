@@ -4,12 +4,22 @@ using System.Collections.Immutable;
 namespace BrailleBits;
 
 
+/// <summary>
+/// Maps each byte to the corresponding char matching a specific bit layout.
+/// </summary>
+/// <remarks>
+/// For a detailed description of the braille unicode characters,
+/// see https://symbl.cc/en/unicode/blocks/braille-patterns/
+/// </remarks>
 internal static class CharMap
 {
+//TODO: Map
 	public static readonly ImmutableArray<char> TopLeft = [];
 
+//TODO: Map
 	public static readonly ImmutableArray<char> TopRight = [];
 
+//TODO: Continue map all 256 values
 	public static readonly ImmutableArray<char> BottomRight =
 		[
 			'\u2800', // ⠀ 0
@@ -31,5 +41,6 @@ internal static class CharMap
 			'\u28b8'  // ⢸ 15
 		];
 
+//TODO: Map
 	public static readonly ImmutableArray<char> BottomLeft = [];
 }
