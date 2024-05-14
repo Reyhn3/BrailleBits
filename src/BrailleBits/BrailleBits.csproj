@@ -7,4 +7,10 @@
     <Description>Translates a binary number into a visual representation using 8-dot braille unicode characters</Description>
   </PropertyGroup>
 
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>BrailleBits.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
 </Project>

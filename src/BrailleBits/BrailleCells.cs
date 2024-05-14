@@ -3,8 +3,8 @@ namespace BrailleBits;
 
 public sealed class BrailleCells : IBrailleCells
 {
-	public const char First = '⠀';
-	public const char Last = '⣿';
+	public const char First = '\u2800'; // '⠀'
+	public const char Last = '\u28ff';  // '⣿'
 
 	private static readonly char[] s_range = Enumerable
 		.Range(First, Last - First + 1)
