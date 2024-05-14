@@ -3,8 +3,8 @@ namespace BrailleBits;
 
 public enum FirstBitPosition
 {
-	TopLeft,
-	TopRight,
 	BottomRight,
-	BottomLeft
+	BottomLeft,
+	TopRight,
+	TopLeft
 }

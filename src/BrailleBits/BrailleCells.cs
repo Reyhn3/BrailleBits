@@ -6,6 +6,7 @@ public sealed class BrailleCells : IBrailleCells
 	public const char First = '\u2800'; // '⠀'
 	public const char Last = '\u28ff';  // '⣿'
 
+//TODO: Change to ImmutableArray<char>
 	private static readonly char[] s_range = Enumerable
 		.Range(First, Last - First + 1)
 		.Select(i => (char)i)
